@@ -53,12 +53,27 @@ header {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
   font-weight: 800;
   font-size: 1.1rem;
   letter-spacing: 0.4px;
 }
 
-.logo span {
+.logo-text {
+  line-height: 1.2;
+}
+
+.logo img {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+.logo-text span {
   color: var(--emerald);
 }
 
@@ -388,13 +403,17 @@ header {
   background: linear-gradient(135deg, var(--emerald), #34d399);
   opacity: 0.8;
   animation: pulse 1.6s ease infinite;
+  z-index: 0;
 }
 
-.loader-logo span {
+.loader-logo img {
   position: relative;
-  font-weight: 800;
-  letter-spacing: 2px;
-  color: white;
+  width: 86px;
+  height: 86px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
 @keyframes pulse {
