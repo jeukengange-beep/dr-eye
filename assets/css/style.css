@@ -150,6 +150,54 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.dynamic-roles {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.65rem 0.85rem;
+  background: rgba(5, 150, 105, 0.08);
+  border: 1px solid rgba(5, 150, 105, 0.16);
+  border-radius: 12px;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 10px 30px rgba(5, 150, 105, 0.08);
+}
+
+.dynamic-label {
+  font-weight: 700;
+  color: var(--emerald);
+  letter-spacing: 0.3px;
+}
+
+.typewriter {
+  min-width: 220px;
+  font-weight: 700;
+  color: #0f172a;
+  position: relative;
+}
+
+.typewriter::after {
+  content: '';
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 1.1em;
+  background: #0f172a;
+  animation: blink 0.9s infinite;
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  50.01%,
+  100% {
+    opacity: 0;
+  }
+}
+
 .cta {
   display: inline-flex;
   align-items: center;
@@ -218,6 +266,10 @@ header {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+}
+
+.trio-grid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 .card {
@@ -309,6 +361,41 @@ header {
 .gallery figcaption {
   padding: 0.8rem 1rem;
   font-weight: 600;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: grid;
+  grid-template-rows: auto 1fr;
+  border: 1px solid rgba(5, 150, 105, 0.08);
+}
+
+.resource-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.resource-body {
+  padding: 1.25rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.cta.ghost {
+  background: transparent;
+  color: var(--emerald);
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  box-shadow: none;
 }
 
 .contact {
@@ -444,6 +531,20 @@ header {
 
   .navbar {
     position: relative;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-image {
+    max-width: 320px;
+    justify-self: center;
+  }
+
+  .dynamic-roles {
+    justify-content: center;
   }
 }
 

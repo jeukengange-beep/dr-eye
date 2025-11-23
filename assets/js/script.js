@@ -15,8 +15,10 @@ const translations = {
     },
     home: {
       heroTag: 'Digital Health • Research • Leadership • Innovation',
-      heroTitle: 'Physician and educator shaping the future of global health through research, digital health, leadership and innovation.',
-      heroIntro: 'I help health professionals and organizations adopt practical, ethical and impactful ways to use technology while building strong teams and systems.',
+      heroTitle: 'Physician, researcher, and health leader aiming to shape the future of global health through research, digital health, leadership, and innovation.',
+      heroIntro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems.',
+      dynamicLabel: 'Focus areas:',
+      dynamicWords: ['Public Health', 'Health Education', 'Professional growth in Health', 'Mentoring', 'Research & Ethics'],
       cta: 'Explore my Work',
       impactTitle: 'Impact in Numbers',
       years: 'Years Experience',
@@ -75,15 +77,38 @@ const translations = {
       paper2Journal: 'Global Health Report.'
     },
     leadership: {
-      tag: 'Leadership',
+      tag: 'Leadership & Impact',
       title: 'Leading with vision and community impact',
       intro: 'Talks, awards, and collaborations showcasing the intersection of digital health, research, and collective action.',
       video: 'Feature Video',
+      awardsTitle: 'Awards, Honors & Scholarships',
+      awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
+      awards: {
+        professional: 'Professional Awards',
+        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
+        fellowships: 'Fellowships',
+        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
+        scholarships: 'Scholarships',
+        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+      },
       gallery: 'Gallery',
       captions: {
         c1: 'Prix "Best Pitch Zapper".',
         c2: 'Plateau TV & Conférence.',
         c3: 'Keynote Speaker.'
+      },
+      resourcesTitle: 'Resources & Toolkits',
+      resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
+      resources: {
+        consultation: 'Consultation',
+        consultationDesc: 'One-on-one strategic guidance on digital health adoption, research design, and leadership growth.',
+        consultationCta: 'Book a Session',
+        ebook: 'E-book / Playbook',
+        ebookDesc: 'Actionable frameworks and checklists to operationalize ethical, effective digital health projects.',
+        ebookCta: 'Coming Soon',
+        mentoring: 'Mentoring Program',
+        mentoringDesc: 'Cohort-based mentoring with live sessions and toolkits to accelerate professional growth in health.',
+        mentoringCta: 'Join Waitlist'
       },
       engagement: 'Engagement',
       vopaca: 'Vopaca Program (Volunteer MD)',
@@ -123,8 +148,10 @@ const translations = {
     },
     home: {
       heroTag: 'Santé numérique • Recherche • Leadership • Innovation',
-      heroTitle: 'Médecin et pédagogue qui façonne l’avenir de la santé mondiale grâce à la recherche, la santé numérique, le leadership et l’innovation.',
-      heroIntro: 'J’aide les professionnels et organisations de santé à adopter des solutions technologiques pratiques, éthiques et impactantes tout en renforçant les équipes et les systèmes.',
+      heroTitle: 'Physician, researcher, and health leader aiming to shape the future of global health through research, digital health, leadership, and innovation.',
+      heroIntro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems.',
+      dynamicLabel: 'Domaines clés :',
+      dynamicWords: ['Public Health', 'Health Education', 'Professional growth in Health', 'Mentoring', 'Research & Ethics'],
       cta: 'Découvrir mes projets',
       impactTitle: 'Impact en chiffres',
       years: 'Années d’expérience',
@@ -183,15 +210,38 @@ const translations = {
       paper2Journal: 'Global Health Report.'
     },
     leadership: {
-      tag: 'Leadership',
+      tag: 'Leadership & Impact',
       title: 'Un leadership ancré dans l’impact communautaire',
       intro: 'Conférences, prix et collaborations à l’intersection de la santé numérique, de la recherche et de l’action collective.',
       video: 'Vidéo à la une',
+      awardsTitle: 'Awards, Honors & Scholarships',
+      awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
+      awards: {
+        professional: 'Professional Awards',
+        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
+        fellowships: 'Fellowships',
+        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
+        scholarships: 'Scholarships',
+        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+      },
       gallery: 'Galerie',
       captions: {
         c1: 'Prix « Best Pitch Zapper ».',
         c2: 'Plateau TV & Conférence.',
         c3: 'Intervenant principal.'
+      },
+      resourcesTitle: 'Resources & Toolkits',
+      resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
+      resources: {
+        consultation: 'Consultation',
+        consultationDesc: 'One-on-one strategic guidance on digital health adoption, research design, and leadership growth.',
+        consultationCta: 'Book a Session',
+        ebook: 'E-book / Playbook',
+        ebookDesc: 'Actionable frameworks and checklists to operationalize ethical, effective digital health projects.',
+        ebookCta: 'Coming Soon',
+        mentoring: 'Mentoring Program',
+        mentoringDesc: 'Cohort-based mentoring with live sessions and toolkits to accelerate professional growth in health.',
+        mentoringCta: 'Join Waitlist'
       },
       engagement: 'Engagement',
       vopaca: 'Programme Vopaca (Médecin bénévole)',
@@ -231,8 +281,10 @@ const translations = {
     },
     home: {
       heroTag: 'Digital Health • Forschung • Leadership • Innovation',
-      heroTitle: 'Ärztin und Pädagogin, die die Zukunft der globalen Gesundheit durch Forschung, digitale Gesundheit, Leadership und Innovation gestaltet.',
-      heroIntro: 'Ich helfe Fachkräften und Organisationen im Gesundheitswesen, praktische, ethische und wirkungsvolle Technologien einzusetzen und dabei starke Teams und Systeme aufzubauen.',
+      heroTitle: 'Physician, researcher, and health leader aiming to shape the future of global health through research, digital health, leadership, and innovation.',
+      heroIntro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems.',
+      dynamicLabel: 'Schwerpunkte:',
+      dynamicWords: ['Public Health', 'Health Education', 'Professional growth in Health', 'Mentoring', 'Research & Ethics'],
       cta: 'Meine Arbeit entdecken',
       impactTitle: 'Impact in Zahlen',
       years: 'Jahre Erfahrung',
@@ -291,15 +343,38 @@ const translations = {
       paper2Journal: 'Global Health Report.'
     },
     leadership: {
-      tag: 'Leadership',
+      tag: 'Leadership & Impact',
       title: 'Führungsarbeit mit gesellschaftlichem Impact',
       intro: 'Vorträge, Auszeichnungen und Kooperationen an der Schnittstelle von digitaler Gesundheit, Forschung und Community-Arbeit.',
       video: 'Video-Highlight',
+      awardsTitle: 'Awards, Honors & Scholarships',
+      awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
+      awards: {
+        professional: 'Professional Awards',
+        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
+        fellowships: 'Fellowships',
+        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
+        scholarships: 'Scholarships',
+        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+      },
       gallery: 'Galerie',
       captions: {
         c1: 'Preis „Best Pitch Zapper“.',
         c2: 'TV-Set & Konferenz.',
         c3: 'Keynote Speaker.'
+      },
+      resourcesTitle: 'Resources & Toolkits',
+      resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
+      resources: {
+        consultation: 'Consultation',
+        consultationDesc: 'One-on-one strategic guidance on digital health adoption, research design, and leadership growth.',
+        consultationCta: 'Book a Session',
+        ebook: 'E-book / Playbook',
+        ebookDesc: 'Actionable frameworks and checklists to operationalize ethical, effective digital health projects.',
+        ebookCta: 'Coming Soon',
+        mentoring: 'Mentoring Program',
+        mentoringDesc: 'Cohort-based mentoring with live sessions and toolkits to accelerate professional growth in health.',
+        mentoringCta: 'Join Waitlist'
       },
       engagement: 'Engagement',
       vopaca: 'Vopaca Programm (Volunteer MD)',
@@ -339,8 +414,10 @@ const translations = {
     },
     home: {
       heroTag: '数字健康 • 研究 • 领导力 • 创新',
-      heroTitle: '医生与教育者，通过研究、数字健康、领导力与创新塑造全球健康的未来。',
-      heroIntro: '我帮助医护人员和机构以务实、合乎伦理且有影响力的方式采用科技，同时打造强大的团队与体系。',
+      heroTitle: 'Physician, researcher, and health leader aiming to shape the future of global health through research, digital health, leadership, and innovation.',
+      heroIntro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems.',
+      dynamicLabel: '重点领域：',
+      dynamicWords: ['Public Health', 'Health Education', 'Professional growth in Health', 'Mentoring', 'Research & Ethics'],
       cta: '探索我的工作',
       impactTitle: '影响力数据',
       years: '年经验',
@@ -399,15 +476,38 @@ const translations = {
       paper2Journal: 'Global Health Report.'
     },
     leadership: {
-      tag: '领导力',
+      tag: 'Leadership & Impact',
       title: '以远见与影响力引领',
       intro: '演讲、奖项与合作，展示数字健康、研究与集体行动的交汇点。',
       video: '特色视频',
+      awardsTitle: 'Awards, Honors & Scholarships',
+      awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
+      awards: {
+        professional: 'Professional Awards',
+        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
+        fellowships: 'Fellowships',
+        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
+        scholarships: 'Scholarships',
+        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+      },
       gallery: '相册',
       captions: {
         c1: '“Best Pitch Zapper” 奖。',
         c2: '电视访谈与会议。',
         c3: '主题演讲嘉宾。'
+      },
+      resourcesTitle: 'Resources & Toolkits',
+      resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
+      resources: {
+        consultation: 'Consultation',
+        consultationDesc: 'One-on-one strategic guidance on digital health adoption, research design, and leadership growth.',
+        consultationCta: 'Book a Session',
+        ebook: 'E-book / Playbook',
+        ebookDesc: 'Actionable frameworks and checklists to operationalize ethical, effective digital health projects.',
+        ebookCta: 'Coming Soon',
+        mentoring: 'Mentoring Program',
+        mentoringDesc: 'Cohort-based mentoring with live sessions and toolkits to accelerate professional growth in health.',
+        mentoringCta: 'Join Waitlist'
       },
       engagement: '参与',
       vopaca: 'Vopaca 计划（志愿医生）',
@@ -447,8 +547,10 @@ const translations = {
     },
     home: {
       heroTag: 'الصحة الرقمية • البحث • القيادة • الابتكار',
-      heroTitle: 'طبيب ومُعلّم يصنع مستقبل الصحة العالمية عبر البحث والصحة الرقمية والقيادة والابتكار.',
-      heroIntro: 'أساعد المهنيين والمؤسسات الصحية على اعتماد تقنيات عملية وأخلاقية وفعّالة مع بناء فرق وأنظمة قوية.',
+      heroTitle: 'Physician, researcher, and health leader aiming to shape the future of global health through research, digital health, leadership, and innovation.',
+      heroIntro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems.',
+      dynamicLabel: 'مجالات التركيز:',
+      dynamicWords: ['Public Health', 'Health Education', 'Professional growth in Health', 'Mentoring', 'Research & Ethics'],
       cta: 'استكشف أعمالي',
       impactTitle: 'الأثر بالأرقام',
       years: 'سنوات الخبرة',
@@ -507,15 +609,38 @@ const translations = {
       paper2Journal: 'Global Health Report.'
     },
     leadership: {
-      tag: 'القيادة',
+      tag: 'Leadership & Impact',
       title: 'قيادة برؤية وأثر مجتمعي',
       intro: 'أحاديث وجوائز وتعاونيات تُظهر تقاطع الصحة الرقمية والبحث والعمل الجماعي.',
       video: 'الفيديو المميز',
+      awardsTitle: 'Awards, Honors & Scholarships',
+      awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
+      awards: {
+        professional: 'Professional Awards',
+        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
+        fellowships: 'Fellowships',
+        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
+        scholarships: 'Scholarships',
+        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+      },
       gallery: 'المعرض',
       captions: {
         c1: 'جائزة "Best Pitch Zapper".',
         c2: 'استوديو تلفزيوني ومؤتمر.',
         c3: 'متحدث رئيسي.'
+      },
+      resourcesTitle: 'Resources & Toolkits',
+      resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
+      resources: {
+        consultation: 'Consultation',
+        consultationDesc: 'One-on-one strategic guidance on digital health adoption, research design, and leadership growth.',
+        consultationCta: 'Book a Session',
+        ebook: 'E-book / Playbook',
+        ebookDesc: 'Actionable frameworks and checklists to operationalize ethical, effective digital health projects.',
+        ebookCta: 'Coming Soon',
+        mentoring: 'Mentoring Program',
+        mentoringDesc: 'Cohort-based mentoring with live sessions and toolkits to accelerate professional growth in health.',
+        mentoringCta: 'Join Waitlist'
       },
       engagement: 'المشاركة',
       vopaca: 'برنامج فوبكا (طبيب متطوع)',
@@ -541,6 +666,54 @@ const translations = {
   }
 };
 
+let typewriterTimeout;
+
+function startTypewriter(target, words = []) {
+  if (!target || !words.length) return;
+  if (typewriterTimeout) clearTimeout(typewriterTimeout);
+
+  let wordIndex = 0;
+  let charIndex = 0;
+  let deleting = false;
+
+  const type = () => {
+    const currentWord = words[wordIndex] || '';
+    if (!deleting) {
+      target.textContent = currentWord.slice(0, charIndex + 1);
+      charIndex += 1;
+      if (charIndex === currentWord.length) {
+        typewriterTimeout = setTimeout(() => {
+          deleting = true;
+          charIndex = currentWord.length;
+          type();
+        }, 1200);
+        return;
+      }
+    } else {
+      target.textContent = currentWord.slice(0, charIndex);
+      charIndex -= 1;
+      if (charIndex < 0) {
+        deleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+        charIndex = 0;
+      }
+    }
+
+    const delay = deleting ? 60 : 110;
+    typewriterTimeout = setTimeout(type, delay);
+  };
+
+  target.textContent = '';
+  type();
+}
+
+function refreshDynamicText(lang) {
+  const target = document.querySelector('[data-type-target]');
+  if (!target) return;
+  const words = translations[lang]?.home?.dynamicWords || translations.en.home.dynamicWords;
+  startTypewriter(target, words);
+}
+
 function applyTranslations(lang) {
   const t = translations[lang] || translations.en;
   document.querySelectorAll('[data-i18n]').forEach((node) => {
@@ -555,6 +728,7 @@ function applyTranslations(lang) {
   });
 
   document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+  refreshDynamicText(lang);
 }
 
 function initCounters() {
