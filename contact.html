@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Dr. Eye Ngoa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script src="https://kit.fontawesome.com/a54d2cbf95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html" class="logo" data-i18n="footer.brand">Dr. EYE NGOA</a>
+      <button class="burger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul>
+          <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+          <li><a href="about.html" data-i18n="nav.about">About</a></li>
+          <li><a href="programs.html" data-i18n="nav.programs">Programs</a></li>
+          <li><a href="research.html" data-i18n="nav.research">Research</a></li>
+          <li><a href="leadership.html" data-i18n="nav.leadership">Leadership</a></li>
+          <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+      <select class="lang-select" aria-label="Language selector">
+        <option value="en">EN</option>
+        <option value="fr">FR</option>
+        <option value="de">DE</option>
+        <option value="zh">ZH</option>
+        <option value="ar">AR</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <div class="section-header">
+        <div>
+          <p class="badge" data-i18n="badge.contact">Contact</p>
+          <h1 data-i18n="contact.title">Contact</h1>
+          <p data-i18n="contact.details">Reach out directly</p>
+        </div>
+      </div>
+      <div class="contact-grid">
+        <form class="card" action="#" method="post">
+          <h3 data-i18n="contact.form.title">Send a Message</h3>
+          <div class="form-control">
+            <label for="name" data-i18n="contact.name">Full Name</label>
+            <input id="name" name="name" type="text" data-i18n-placeholder="contact.name" placeholder="Full Name" required />
+          </div>
+          <div class="form-control">
+            <label for="email" data-i18n="contact.email">Email</label>
+            <input id="email" name="email" type="email" data-i18n-placeholder="contact.email" placeholder="Email" required />
+          </div>
+          <div class="form-control">
+            <label for="organization" data-i18n="contact.organization">Organization</label>
+            <input id="organization" name="organization" type="text" data-i18n-placeholder="contact.organization" placeholder="Organization" />
+          </div>
+          <div class="form-control">
+            <label for="message" data-i18n="contact.message">Message</label>
+            <textarea id="message" name="message" data-i18n-placeholder="contact.message" placeholder="Message" required></textarea>
+          </div>
+          <div class="button-row">
+            <button class="cta" type="submit" data-i18n="contact.submit">Send Message</button>
+          </div>
+        </form>
+
+        <div class="card contact-info">
+          <h3 data-i18n="contact.details">Reach out directly</h3>
+          <ul>
+            <li>johnjulius.eyengoa@gmail.com</li>
+            <li>eyengoa@afromededu.com</li>
+            <li>eyengoa@triadresearchfoundation.org</li>
+          </ul>
+          <div class="socials" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/dreye-digitalhealth-healthresearch-leadership-healtheducation/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+              <span data-i18n="contact.linkedin">LinkedIn</span>
+            </a>
+            <a href="https://web.facebook.com/jean.eyengoa/" target="_blank" rel="noopener" aria-label="Facebook">
+              <i class="fab fa-facebook"></i>
+              <span data-i18n="contact.facebook">Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>
+        <div class="logo" data-i18n="footer.brand">Dr. EYE NGOA</div>
+        <div class="footer-meta" data-i18n="footer.credit">Designed &amp; Built by TEGOFACK Corp.</div>
+      </div>
+      <div>
+        <div class="footer-links" aria-label="Quick links">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="about.html" data-i18n="nav.about">About</a>
+          <a href="research.html" data-i18n="nav.research">Research</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-meta" data-i18n="footer.copyright">© 2025 Dr. EYE NGOA Jean Junior. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
