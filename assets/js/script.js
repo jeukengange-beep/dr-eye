@@ -29,7 +29,10 @@ const translations = {
     about: {
       tag: 'Biography',
       title: 'About Dr. Eye Ngoa',
-      intro: 'In addition to advancing the SDGs through professional education and mentoring in the healthcare sector, I assist healthcare professionals and organizations in adopting practical, ethical, and effective technology solutions while fostering strong teams and systems. Explore the impact of my work over the past few years.',
+      intro: 'I am Dr. Jean Junior Eye Ngoa, a dedicated medical doctor, health leader, and research scholar committed to transforming healthcare in Africa. As Chief Medical Officer at Clinique des Cités-Sarl, I lead impactful programs addressing malaria, HIV, and polio. I also serve as Regional Director for Central Africa at the Afromed Academy of Medical Research and Innovation, advancing collaborative healthcare solutions.',
+      body: 'My global contributions include roles as associate researcher at the Triad Research Foundation and site-based coordinator for the University of Washington e-learning courses in the Department of Global Health. I founded the Medical Art Academy to address community health issues by blending mental health and music therapy, benefiting both patients and students.',
+      body2: 'As an alumnus of YALI RLC and a social media manager for health professionals, I founded the Health Digit Program in public management. This post-training community service initiative equips healthcare professionals with digital-era tools to contribute to the digital health revolution and give back to the community.',
+      body3: 'As Vice President of the Cameroon Young Physician Network, my leadership aims to advance healthcare equity and innovation across the continent.',
       journey: 'Career Journey',
       roles: {
         role1: 'Regional Representative for Central Africa & Trainer',
@@ -62,7 +65,12 @@ const translations = {
         a4Title: 'Triad Research Foundation',
         a4Desc: 'Forums, grants and training on global mental health, hypertension and more.',
         a5Title: 'eDGH • University of Washington',
-        a5Desc: 'Collaborative courses and site-based coordination to strengthen research culture.'
+        a5Desc: 'Collaborative courses and site-based coordination to strengthen research culture.',
+        a6Title: 'Medical Art Academy',
+        a6Desc: 'Blending mental health and music therapy to address community health issues for patients and students.',
+        a7Title: 'Digital Health Foundation',
+        a7Desc: 'Accelerating digital health capacity building and community programs through collaboration.',
+        learnMore: 'Learn More'
       }
     },
     research: {
@@ -84,19 +92,15 @@ const translations = {
       awardsTitle: 'Awards, Honors & Scholarships',
       awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
       awards: {
-        professional: 'Professional Awards',
-        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
-        fellowships: 'Fellowships',
-        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
-        scholarships: 'Scholarships',
-        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+        list1: 'Young African Leader Initiative RLC Accra (Ghana) best Project pitch - Apr 2024',
+        list2: 'Multiple Certificates of Appreciation as a Side-Based Coordinator eDGH University of Washington USA, including Global Health, Project Management, Leadership, Monitoring and Evaluation, Epidemiology, HIV and more - 2022- 2025',
+        list3: 'Young Young African Leaders Initiatives (YALI) Regional Leadership Center West Africa Fellow, Accra 2024 Cohort 47 - Feb-Aug 2024',
+        list4: 'Afromed Academy of medical research and Innovation Senior Researcher Fellogship - Dec 2023 - Present',
+        list5: 'Outstanding Speakers Award – MOGi Emerging Leaders Program. - Apr 2025'
       },
       gallery: 'Gallery',
-      captions: {
-        c1: 'Prix "Best Pitch Zapper".',
-        c2: 'Plateau TV & Conférence.',
-        c3: 'Keynote Speaker.'
-      },
+      galleryIntro: 'Snapshots from awards, media, and field work.',
+      galleryCta: 'View full gallery',
       resourcesTitle: 'Resources & Toolkits',
       resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
       resources: {
@@ -114,7 +118,18 @@ const translations = {
       vopaca: 'Vopaca Program (Volunteer MD)',
       vopacaDesc: 'Mobilizing volunteer medical doctors to expand access to care and mentorship.',
       podcast: 'One Health Series (Podcast)',
-      podcastDesc: 'Conversations that connect human, animal, and environmental health for resilient systems.'
+      podcastDesc: 'Conversations that connect human, animal, and environmental health for resilient systems.',
+      mentorshipTag: 'Mentorship & Media',
+      mentorshipTitle: 'Mentorship stories, TV, and podcast highlights',
+      mentorshipPost: 'Mentorship community spotlight',
+      oneHealthTitle: 'One Health Uniting for a Healthier World with Dr. Bolanle Akanbi-Hakeem',
+      podcastNote: 'Featuring the One Health Series podcast.',
+      canal2Title: 'Canal 2 TV appearance',
+      radioTitle: 'Radio Balafon feature',
+      vopacaTitle: 'Vopaca Program (Volunteer MD)',
+      pressTitle: 'They talk about me',
+      press1: 'Open Dreams feature',
+      press2: 'Pan African Medical Journal proceedings'
     },
     contact: {
       tag: 'Contact',
@@ -130,6 +145,11 @@ const translations = {
       connect: 'Connect directly',
       emailLabel: 'Email:',
       socialLabel: 'Social:'
+    },
+    gallery: {
+      tag: 'Gallery',
+      title: 'Visual highlights',
+      intro: 'A curated glimpse into awards, talks, fieldwork, and media moments.'
     }
   },
   fr: {
@@ -162,7 +182,10 @@ const translations = {
     about: {
       tag: 'Biographie',
       title: 'À propos du Dr. Eye Ngoa',
-      intro: 'En plus de faire progresser les ODD via la formation et le mentorat des professionnels de santé, j’accompagne les équipes et organisations dans l’adoption de solutions technologiques pratiques, éthiques et efficaces tout en consolidant les équipes et systèmes. Découvrez mon impact de ces dernières années.',
+      intro: 'Je suis Dr Jean Junior Eye Ngoa, médecin, leader en santé et chercheur engagé pour transformer les soins en Afrique. En tant que Chief Medical Officer à Clinique des Cités-Sarl, je dirige des programmes contre le paludisme, le VIH et la polio. Je suis également Regional Director pour l’Afrique centrale à l’Afromed Academy of Medical Research and Innovation, où je fais avancer des solutions collaboratives.',
+      body: 'Mes contributions internationales incluent un rôle d’associate researcher à la Triad Research Foundation et de site-based coordinator pour les cours e-learning du Department of Global Health de l’University of Washington. J’ai fondé la Medical Art Academy pour traiter les problèmes de santé communautaire en combinant santé mentale et thérapie musicale.',
+      body2: 'Ancien du YALI RLC et social media manager pour les professionnels de santé, j’ai fondé le Health Digit Program en gestion publique. Cette initiative post-formation équipe les professionnels de santé d’outils numériques pour contribuer à la révolution de la santé digitale et servir la communauté.',
+      body3: 'En tant que vice-président du Cameroon Young Physician Network, mon leadership vise à faire progresser l’équité en santé et l’innovation sur le continent.',
       journey: 'Parcours professionnel',
       roles: {
         role1: 'Représentant Régional Afrique Centrale & Formateur',
@@ -195,7 +218,12 @@ const translations = {
         a4Title: 'Triad Research Foundation',
         a4Desc: 'Forums, subventions et formations sur la santé mentale mondiale, l’hypertension et plus.',
         a5Title: 'eDGH • University of Washington',
-        a5Desc: 'Cours collaboratifs et coordination de site pour renforcer la culture de recherche.'
+        a5Desc: 'Cours collaboratifs et coordination de site pour renforcer la culture de recherche.',
+        a6Title: 'Medical Art Academy',
+        a6Desc: 'Allier santé mentale et thérapie musicale pour répondre aux défis de santé communautaire.',
+        a7Title: 'Digital Health Foundation',
+        a7Desc: 'Accélérer les capacités en santé digitale et les programmes communautaires par la collaboration.',
+        learnMore: 'En savoir plus'
       }
     },
     research: {
@@ -217,19 +245,15 @@ const translations = {
       awardsTitle: 'Awards, Honors & Scholarships',
       awardsIntro: 'A growing collection of professional recognitions, fellowships, and scholarships that fuel impact-driven work.',
       awards: {
-        professional: 'Professional Awards',
-        professionalDesc: 'Industry honors that celebrate leadership, innovation, and community health impact.',
-        fellowships: 'Fellowships',
-        fellowshipsDesc: 'Immersive programs that expand networks, research capabilities, and health leadership.',
-        scholarships: 'Scholarships',
-        scholarshipsDesc: 'Academic and professional scholarships that recognize excellence and unlock new collaborations.'
+        list1: 'Young African Leader Initiative RLC Accra (Ghana) best Project pitch - Apr 2024',
+        list2: 'Multiple Certificates of Appreciation as a Side-Based Coordinator eDGH University of Washington USA, including Global Health, Project Management, Leadership, Monitoring and Evaluation, Epidemiology, HIV and more - 2022- 2025',
+        list3: 'Young Young African Leaders Initiatives (YALI) Regional Leadership Center West Africa Fellow, Accra 2024 Cohort 47 - Feb-Aug 2024',
+        list4: 'Afromed Academy of medical research and Innovation Senior Researcher Fellogship - Dec 2023 - Present',
+        list5: 'Outstanding Speakers Award – MOGi Emerging Leaders Program. - Apr 2025'
       },
       gallery: 'Galerie',
-      captions: {
-        c1: 'Prix « Best Pitch Zapper ».',
-        c2: 'Plateau TV & Conférence.',
-        c3: 'Intervenant principal.'
-      },
+      galleryIntro: 'Moments de prix, de médias et de terrain.',
+      galleryCta: 'Voir toute la galerie',
       resourcesTitle: 'Resources & Toolkits',
       resourcesIntro: 'Premium digital offerings designed to empower health professionals before any transaction is requested.',
       resources: {
@@ -247,7 +271,18 @@ const translations = {
       vopaca: 'Programme Vopaca (Médecin bénévole)',
       vopacaDesc: 'Mobiliser des médecins bénévoles pour étendre l’accès aux soins et au mentorat.',
       podcast: 'One Health Series (Podcast)',
-      podcastDesc: 'Dialogues connectant santé humaine, animale et environnementale pour des systèmes résilients.'
+      podcastDesc: 'Dialogues connectant santé humaine, animale et environnementale pour des systèmes résilients.',
+      mentorshipTag: 'Mentorat & Médias',
+      mentorshipTitle: 'Histoires de mentorat, passages TV et podcasts',
+      mentorshipPost: 'Coup de projecteur sur la communauté de mentorat',
+      oneHealthTitle: 'One Health Uniting for a Healthier World with Dr. Bolanle Akanbi-Hakeem',
+      podcastNote: 'Avec la série podcast One Health.',
+      canal2Title: 'Passage Canal 2 TV',
+      radioTitle: 'Focus Radio Balafon',
+      vopacaTitle: 'Programme Vopaca (Médecin volontaire)',
+      pressTitle: 'Ils parlent de moi',
+      press1: 'Open Dreams met en avant',
+      press2: 'Proceedings Pan African Medical Journal'
     },
     contact: {
       tag: 'Contact',
@@ -263,6 +298,11 @@ const translations = {
       connect: 'Contact direct',
       emailLabel: 'Email :',
       socialLabel: 'Réseaux :'
+    },
+    gallery: {
+      tag: 'Galerie',
+      title: 'Moments visuels',
+      intro: 'Une sélection d’images : distinctions, interventions et terrains.'
     }
   },
   de: {
@@ -718,7 +758,9 @@ function applyTranslations(lang) {
   const t = translations[lang] || translations.en;
   document.querySelectorAll('[data-i18n]').forEach((node) => {
     const keys = node.dataset.i18n.split('.');
-    const value = keys.reduce((acc, key) => (acc ? acc[key] : undefined), t);
+    const value =
+      keys.reduce((acc, key) => (acc ? acc[key] : undefined), t) ||
+      keys.reduce((acc, key) => (acc ? acc[key] : undefined), translations.en);
     if (!value) return;
     if (node.tagName === 'INPUT' || node.tagName === 'TEXTAREA') {
       node.placeholder = value;
