@@ -537,9 +537,62 @@ header {
   gap: 0.6rem;
 }
 
+.contact-panel .contact-row {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.contact-panel .contact-row a {
+  color: #0f172a;
+}
+
+.contact-panel .contact-row a:hover,
+.contact-panel .contact-row a:focus-visible {
+  color: #059669;
+}
+
+.contact-panel .contact-icon {
+  background: #e8f6f1;
+  width: 38px;
+  height: 38px;
+}
+
+.contact-panel .contact-icon img {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(96%) saturate(682%)
+    hue-rotate(118deg) brightness(94%) contrast(88%);
+}
+
 .contact-panel .social-links {
   display: flex;
-  gap: 0.75rem;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.55rem 0.85rem;
+  border-radius: 999px;
+  background: #f5f8f7;
+  color: #0f172a;
+  font-weight: 700;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-pill img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(26%) sepia(96%) saturate(682%)
+    hue-rotate(118deg) brightness(94%) contrast(88%);
+}
+
+.social-pill:hover,
+.social-pill:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 22px rgba(5, 150, 105, 0.18);
 }
 
 .btn-secondary {
