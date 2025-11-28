@@ -822,6 +822,24 @@ function hidePreloader() {
   setTimeout(() => preloader.classList.add('hidden'), 500);
 }
 
+function initActiveNav() {
+  const navLinks = document.querySelectorAll('header .nav-links a');
+  if (!navLinks.length) return;
+
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+
+  navLinks.forEach((link) => {
+    const href = link.getAttribute('href');
+    if (!href) return;
+
+    const normalizedHref = href.split('/').pop();
+    if (normalizedHref === currentPath || (!currentPath && normalizedHref === 'index.html')) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    }
+  });
+}
+
 function initAOS() {
   if (window.AOS) {
     AOS.init({
@@ -834,6 +852,7 @@ function initAOS() {
 
 document.addEventListener('DOMContentLoaded', () => {
   initBurgerMenu();
+  initActiveNav();
   initLanguageSelector();
   initCounters();
   initAOS();

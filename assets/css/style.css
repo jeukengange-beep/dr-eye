@@ -94,6 +94,10 @@ header {
   transition: color 0.2s ease;
 }
 
+.nav-links a.active {
+  color: var(--emerald);
+}
+
 .nav-links a:hover,
 .nav-links a:focus-visible {
   color: var(--emerald);
